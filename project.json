@@ -1,0 +1,141 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": {
+        "Health": ["", 100],
+        "TimeSurvived": ["", 0],
+        "BestTime": ["", 0],
+        "AttackCooldown": ["", 0],
+        "SpawnDelay": ["", 1.0]
+      },
+      "lists": {},
+      "broadcasts": {
+        "Start": "Start",
+        "GameOver": "GameOver"
+      },
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "background",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "background-svg",
+          "md5ext": "background.svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Player",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "player",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "player-svg",
+          "md5ext": "player.svg",
+          "rotationCenterX": 32,
+          "rotationCenterY": 32
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Enemy",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "enemy",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "enemy-svg",
+          "md5ext": "enemy.svg",
+          "rotationCenterX": 28,
+          "rotationCenterY": 28
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Attack",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "attack",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "attack-svg",
+          "md5ext": "attack.svg",
+          "rotationCenterX": 28,
+          "rotationCenterY": 14
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 3,
+      "visible": false,
+      "x": 0,
+      "y": 0,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "knight-survival-builder"
+  }
+}
